@@ -61,7 +61,7 @@ const SearchBar = ({ timezones, addTimezone }) => {
             placeholder: "Time zone",
           }}
         />
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn">
           Add
         </button>
       </form>

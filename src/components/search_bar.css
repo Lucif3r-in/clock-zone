@@ -1,16 +1,26 @@
 .SearchBar .search-form {
-  float: left;
+  margin: auto;
   width: auto;
-  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  background-color: var(--button);
+  color: var(--button-text);
+  padding: 0.35rem 0.6rem;
+  font-weight: 600;
 }
 
 .SearchBar .opacity-0 {
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.2s;
 }
 
 .SearchBar .opacity-1 {
-  opacity: 1.0;
+  opacity: 1;
   transition: opacity 0.2s;
 }
 
@@ -38,7 +48,7 @@
   }
 
   .SearchBar .opacity-1 {
-    opacity: 1.0;
+    opacity: 1;
     margin-top: 5px;
     margin-left: 5px;
     height: calc(2rem + 2px);
