@@ -51,7 +51,7 @@ class ClockList extends Component {
   render() {
     if (!this.props.timezones.length) {
       return (
-        <div className="clock-list-loading">Add Clocks to see the time</div>
+        <div className="clock-list-loading">Clocks will be added here</div>
       );
     }
     return (

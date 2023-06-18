@@ -30,7 +30,12 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+.app {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .navbar {
   position: fixed;
   top: 0;
@@ -76,6 +81,11 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+.footer {
+  margin-top: auto;
+  text-align: center;
 }
 
 button {

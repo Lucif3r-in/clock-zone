@@ -13,6 +13,7 @@ export default class App extends Component {
         </div>
         <SearchBar />
         <ClockList />
+        <div className="footer">Made with :love: by Ashutosh Rath🪶</div>
       </div>
     );
   }
